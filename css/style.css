@@ -98,6 +98,9 @@
         }
         
         @media screen and (max-width:768px) {
+            nav {
+                min-width: 500px;
+            }
             .nav-lists {
                 width: 80%;
                 font-size: 12px;
@@ -108,14 +111,21 @@
             .logo {
                 margin: 5px 5px;
             }
+            .fa-cart-plus {
+                margin-top: 12px;
+                margin-left: 10px;
+            }
             .cartbtn {
-                margin: 8px;
+                margin: 10px;
+            }
+            .covid {
+                min-width: 500px;
             }
             .covid p {
                 font-size: 10px;
             }
             .acct {
-                padding: 3px;
+                margin-left: 10px;
             }
         }
         
@@ -139,6 +149,9 @@
         }
         
         @media screen and (max-width:768px) {
+            .section1 {
+                min-width: 500px;
+            }
             .container1 {
                 margin: 20px 20px;
             }
@@ -366,6 +379,9 @@
         }
         
         @media screen and (max-width:768px) {
+            footer {
+                min-width: 500px;
+            }
             .center {
                 display: flex;
                 margin: 10px 10px;
